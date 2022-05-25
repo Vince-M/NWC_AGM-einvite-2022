@@ -28,12 +28,23 @@
 
   <title>The North West Company 2022 AGM eInvite</title>
 
+    <!--to support dark mode meta tags-->
+    <style type="text/css">
+      :root {
+        color-scheme: light dark;
+        supported-color-schemes: light dark;
+      }
+    </style>
+
   <style type="text/css">
      table {
         border-spacing: 0;
      }
      td {
         padding: 0;
+     }
+     h1 {
+      color:#006a51;
      }
      p {
         font-size: 15px;
@@ -51,7 +62,8 @@
        opacity: 70%;
      }
 
-   @media screen and (max-width: 599.98px) {
+    /* mobile styles */
+    @media screen and (max-width: 599.98px) {
         .two-columns .padding,
         .two-third-columns .padding,
         .three-columns .padding {
@@ -77,28 +89,42 @@
            text-align: center!important;
         }
      }
+
+     /* mobile styles */
      @media screen and (max-width: 399.98px) {
         img.three-col-img {
            width:200px!important;
            max-width:200px!important;
         }
      }
+     </style>
 
+     <!--gmail styles-->
+    <style>
+        u + .body .gmail { display: block !important; }
+        u + .body .default { display: none !important; }
+    </style>
+    
+    <!--owa styles-->
+    <style>
+    [class~="x_outlook"] { display: block !important; }
+    [class~="x_default"] { display: none !important; }
+    </style>
+
+    <style>
      /* Custom Dark Mode Colors */
-     /* :root {
-        color-scheme: light dark;
-        supported-color-schemes: light dark;
-     }
      @media (prefers-color-scheme: dark) {
         body, center, table {
            background-color: #2d2d2d!important;
            color:#ffffff!important;
         }
+        body a {color: #ffffff;}
+        h1 {color: #ffffff;}
         .darkmode-transparent {
            background-color: transparent!important;
         }
-     } */
-  </style>
+     }
+    </style>
 
   <!-- [if (gte mso 9)|(IE)]>
     <style type="text/css">
@@ -134,7 +160,7 @@
 
       <table align="center" style="border-spacing:0;color:#565656;font-family: Helvetica, Arial,sans-serif !important;background-color:#ffffff;Margin:0;padding:0;width:100%;max-width:640px;" role="presentation">
 
-        <!-- START BANNER -->
+        <!-- START BANNER image -->
         <tr>
           <td style="padding:0;">
 
@@ -159,7 +185,7 @@
 
           </td>
         </tr>
-        <!-- END BANNER -->
+        <!-- END BANNER image -->
 
         <!-- START CHAIRMAN OF THE BOARD PRESIDENT AND CEO -->
         <tr>
@@ -178,36 +204,44 @@
                           <td style="padding:0;">
 
                             <table class="content" style="border-spacing:0;text-align:center;" role="presentation">
+
+                              <!-- START Chairman of the board president and ceo -->
                               <tr>
                                 <td align="center" border="0" style="padding:0;width:640px;">
-                                  <h1 style="font-size:22px;line-height:28px;color:#006a51;">
+                                  <h1 style="font-size:22px;line-height:28px;">
                                     <span style="font-family:Helvetica,Arial,sans-serif!important;font-weight:500;">H. Sandford Riley,</span> Chairman of the Board <span style="font-size:18px;font-weight:500;">and</span><br>
                                     <span style="font-family:Helvetica,Arial,sans-serif!important;font-weight:500;">Dan McConnell,</span> President and CEO
                                   </h1>
                                 </td>
                               </tr>
+                              <!-- END Chairman of the board president and ceo -->
 
+                              <!-- START request attendance -->
                               <tr>
                                 <td align="center" border="0" style="padding:0;">
-                                  <p style="Margin:0;font-size:18px;line-height:22px;color:#707070;text-align:center;">request your presence at our</p>
-                                  <h1 style="Margin:0 0 20px;font-size:22px;line-height:28px;color:#707070;">
+                                  <p style="Margin:0;font-size:18px;line-height:22px;;text-align:center;">request your presence at our</p>
+                                  <h1 style="Margin:0 0 20px;font-size:22px;line-height:28px;">
                                     <span style="font-family:Helvetica,Arial,sans-serif!important;font-weight:500;">Virtual Annual General Meeting of Shareholders</span><br>
                                     <span style="font-family:Helvetica,Arial,sans-serif!important;font-weight:500;">of</span> The North West Company Inc.
-                                  </h1>
-                                </td>
-                              </tr>
-
-                              <tr>
-                                <td align="center" border="center" style="padding:0;">
-                                  <h1 style="Margin:0;font-size:22px;line-height:28px;color:#707070;text-align:center;">
-                                    <span style="font-family:Helvetica,Arial,sans-serif!important;font-weight:500;">Wednesday, June 8, 2022</span>
-                                  </h1>
-                                  <h2 style="Margin:0 0 35px;;font-size:16px;line-height:24px;color:#707070;text-align:center;">
-                                    <span style="font-family:Helvetica,Arial,sans-serif!important;font-weight:500;;">Time: 11:30 am</span>
                                   </h2>
                                 </td>
                               </tr>
+                              <!-- END request attendance -->
 
+                              <!-- START date & time -->
+                              <tr>
+                                <td align="center" border="center" style="padding:0;">
+                                  <h2 style="Margin:0;font-size:22px;line-height:28px;text-align:center;">
+                                    <span style="font-family:Helvetica,Arial,sans-serif!important;font-weight:500;">Wednesday, June 8, 2022</span>
+                                  </h2>
+                                  <h3 style="Margin:0 0 35px;;font-size:16px;line-height:24px;text-align:center;">
+                                    <span style="font-family:Helvetica,Arial,sans-serif!important;font-weight:500;;">Time: 11:30 am</span>
+                                  </h3>
+                                </td>
+                              </tr>
+                              <!-- END date & time -->
+
+                              <!-- START log-in button -->
                               <tr>
                                 <td  align="center" border="0" style="display:inline-block;Margin-bottom:5px;">
                                   <!-- <button class="btn-log" style="background-color:#006a51;border:1px solid #006a51;color:#ffffff;padding:10px 20px;text-align:center"> -->
@@ -215,47 +249,42 @@
                                   <!-- </button>  -->
                                 </td>
                               </tr>
+                               <!-- END log-in button -->
 
+                              <!-- START password -->
                               <tr>
                                 <td align="center" border="0" style="padding:0;">
                                   <p style="font-family:Helvetica,Arial,sans-serif!important;font-size:14px;Margin-bottom:5px;">Password: northwest2022 <em>(case sensitive)</em></p>
                                 </td>
                               </tr>
+                              <!-- END password -->
 
+                              <!-- START meeting recommendation -->
                               <tr>
                                 <td align="center" border="0" style="padding:0;">
-                                  <p style="font-family:Helvetica,Arial,sans-serif!important;font-size:14px;Margin:0;Margin-bottom:40px;"><em>Recommended that you log-in at least <strong>one hour</strong> before the meeting starts.</em></p>
+                                  <p style="font-family:Helvetica,Arial,sans-serif!important;font-size:14px;Margin:0;"><em>Recommended that you log-in at least <strong>one hour</strong> before the meeting starts.</em></p>
                                 </td>
                               </tr>
+                              <!-- END meeting recommendation -->
 
-                              <tr>
-                                <div class="default">
-                                  <td  align="center" border="0" style="display:inline-block;">
-                                    <a href="https://campaigns.litmus.com/_email/test/newnewyork.ics" class="btn-add" style="background-color:#006a51;font-size:16px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;text-decoration:none;padding: 12px 16px;color:#ffffff;border-radius:0px;display:inline-block;mso-padding-alt:0; box-shadow:0 3px 6px rgba(0,0,0,.2);"><!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%;mso-text-raise:30pt"> </i><![endif]--><span style="mso-text-raise:15pt;">Add to your Calendar</span><!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%"> </i><![endif]--></a>
-                                    <p style="font-family: Helvetica, Arial, sans-serif; color:#006a51;font-size:14px;line-height:24px;Margin: 5px 0 0 0;">
-                                      <a href="https://outlook.live.com/calendar/0/deeplink/compose?allday=false&body=Virtual%20Annual%20General%20Meeting%20of%20Shareholders%20of%20The%20North%20West%20Company%20Inc.&enddt=2022-06-08T17%3A30%3A00%2B00%3A00&location=%20https%3A%2F%2Fweb.lumiagm.com%2F471321061&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-06-08T16%3A30%3A00%2B00%3A00&subject=The%20North%20West%20Company%202022%20Virtual%20Annual%20General%20Meeting%20" target="_blank" style="color: #707070; text-decoration: underline;">Outlook.com</a> |
-                                                          
-                                      <a href="https://outlook.office.com/calendar/0/deeplink/compose?allday=false&body=Virtual%20Annual%20General%20Meeting%20of%20Shareholders%20of%20The%20North%20West%20Company%20Inc.&enddt=2022-06-08T17%3A30%3A00%2B00%3A00&location=%20https%3A%2F%2Fweb.lumiagm.com%2F471321061&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-06-08T16%3A30%3A00%2B00%3A00&subject=The%20North%20West%20Company%202022%20Virtual%20Annual%20General%20Meeting%20" target="_blank" style="color: #707070; text-decoration: underline;">Office 365</a> |
-                                                      
-                                      <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20220608T163000Z%2F20220608T173000Z&details=Virtual%20Annual%20General%20Meeting%20of%20Shareholders%20of%20The%20North%20West%20Company%20Inc.&location=%20https%3A%2F%2Fweb.lumiagm.com%2F471321061&text=The%20North%20West%20Company%202022%20Virtual%20Annual%20General%20Meeting%20" target="_blank" style="color: #707070; text-decoration: underline;">Google</a>
-                                    </p>
-                                  </td>
-                                </div>
-                              </tr>
-
+                              <!-- START RSVP -->
                               <tr>
                                 <td>
                                   <p style="font-family:Helvetica,Arial,sans-serif!important;Margin:40px 0 0;line-height:22px;"><strong>RSVP</strong> to Janice Heinrichs</p>
                                   <p style="font-family:Helvetica,Arial,sans-serif!important;Margin:0 0 40px;line-height:22px;"><strong>t.</strong> <a style="text-decoration:underline;" href="tel:204-934-1487">204-934-1487</a>  |  <strong>e.</strong> <a style="text-decoration:underline;" href="mailto:jheinrichs@northwest.ca">jheinrichs@northwest.ca</a></p>
                                 </td>
                               </tr>
+                              <!-- END RSVP -->
 
+                              <!-- START horizontal separator -->
                               <tr>
                                 <td>
                                   <hr style="border:10px solid #006a51;">
                                 </td>
                               </tr>
+                              <!-- END horizontal separator -->
 
+                              <!-- START mailing address -->
                               <tr>
                                 <td style="padding:0 25px;">
                                   <table border="0" align="center" cellspacing="0" cellpadding="0"  width="100%" style="border-spacing:0;text-align:center;" role="presentation">
@@ -263,7 +292,9 @@
                                   </table>
                                 </td>
                               </tr>
+                              <!-- END mailing address -->
                               
+                              <!-- START footer links -->
                               <tr>
                                 <td style="padding:0 25px;">
                                   <table border="0" align="center" cellspacing="0" cellpadding="0" style="Margin-bottom:20px;" role="presentation">
@@ -271,12 +302,13 @@
                                   </table>
                                 </td>
                               </tr>
+                              <!-- START footer links -->
 
-                            </table>
+                            </table> <!-- content -->
 
                           </td>
                         </tr>
-                      </table>
+                      </table> <!-- column -->
 
                       <!--[if (gte mso 9)|(IE)]>
                               </td>
@@ -288,7 +320,7 @@
             </table>
           </td>
         </tr>
-        <!-- END CHAIRMAN OF THE BOARD PRESIDENT AND CEO -->
+        
 
       </table>
 
